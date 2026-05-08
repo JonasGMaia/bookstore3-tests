@@ -20,3 +20,7 @@ gunicorn = "^25.3.0"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+dj-database-url = "^2.1.0"
+whitenoise = "^6.6.0"
+psycopg2-binary = "^2.9.9"
